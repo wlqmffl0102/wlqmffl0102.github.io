@@ -27,7 +27,7 @@ const resource = [
   {% endfor %}
 
   /* --- Favicons --- */
-  {% assign favicon_path = "/assets/img/favicons" | relative_url %}
+  {% assign favicon_path = "assets/img/favicons" | relative_url %}
  
   '{{ favicon_path }}/favicon-16x16.png',
   '{{ favicon_path }}/favicon-32x32.png',
