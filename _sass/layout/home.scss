@@ -29,7 +29,7 @@
     &.active {
       .page-link {
         background-color: var(--btn-active-bg);
-        border-color: var(--btn-active-border-color);
+        border-color: var(--btn-paginator-border-color);
         box-shadow: 0 0 8px 0 var(--btn-paginator-shadow) !important;
         color: var(--btn-text-color);
       }
