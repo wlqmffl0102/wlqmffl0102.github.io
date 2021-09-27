@@ -33,8 +33,8 @@ url: 'https://wlqmffl0102.github.io'
 github:
   username: wlqmffl0102             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -49,7 +49,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: google03c4a2ae05aa4cdd.html # change to your verification string
 
 # ↑ --------------------------
 
