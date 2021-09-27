@@ -34,6 +34,7 @@ tags: [GitHub Blog, How to, Study]
 그런고로 언제든 덧글 달아주시거나, 연락주세요. 
 감사합니다. 시작하겠습니다!
 <br>
+<br>
 
 ## 0. Github Blog(깃허브 블로그)란?
 ---
@@ -55,13 +56,15 @@ Github에는 여러가지 파일이 업로드,저장이 이루어집니다. 그 
 Github 계정이 없으신 분들은 [**Github**](https://github.com/, "github")으로 접속하여 계정생성(회원가입)을 먼저 진행해주시길 바랍니다.
 계정 생성은 어렵지 않기 때문에, 생략하도록 하겠습니다. 추후 필요시 내용 추가 하도록 하겠습니다.
 <br>
+<br>
 
 ## 1. Github Page 생성
 ---
-1. 우선 본인의 Github계정(https://github.com/{username})으로 접속 후, 새로운 repository를 생성합니다.
-<img src="assets/img/2021-09-27/1.PNG" width="90%"></img>
+### 1. 우선 본인의 Github계정(https://github.com/{username})으로 접속 후, 새로운 repository를 생성합니다.
+![Desktop View](/assets/img/2021-09-27/1.PNG){: width="90%" }
+ <br>
 
-2. repository생성 화면입니다. 여기서 **가장 중요한점**에 관해 이야기 하겠습니다.
+### 2. repository생성 화면입니다. 여기서 **가장 중요한점**에 관해 이야기 하겠습니다.
 	 - Github Page는 
 	   		- 사용자 페이지(단 1개) 
 	   		- 프로젝트 페이지(여러개 가능) 	으로 구성됩니다. 		
@@ -76,9 +79,10 @@ Github 계정이 없으신 분들은 [**Github**](https://github.com/, "github")
 Owner는 wlqmffl0102 / Repository name은 wlqmffl0102.github.io 으로 작성합니다.
 
 이후 선택지는 Public, Add a README file만 체크 후 나머지는 그대로 두시고 Create repository를 클릭합니다.
-<img src="assets/img/2021-09-27/2.PNG" width="90%"></img>
+![Desktop View](/assets/img/2021-09-27/2.PNG){: width="90%" }
+<br>
 
-3. [**Github Desktop**](https://desktop.github.com/, "github-desktop")을 설치합니다.
+### 3. [**Github Desktop**](https://desktop.github.com/, "github-desktop")을 설치합니다.
 바로 위 Github Desktop페이지로 이동 후, 프로그램을 다운로드 받아줍니다.
 그리고 동시에  [**VSCode**](https://code.visualstudio.com/, "vscode")을 설치합니다.
 
@@ -99,12 +103,13 @@ Owner는 wlqmffl0102 / Repository name은 wlqmffl0102.github.io 으로 작성합
 로그인이 정상적으로 되지 않으셨다면, 좌측상단의 File -> Options -> Accounts -> GitHub.com에서 Sign in버튼을 눌러 로그인을 진행가능합니다.
 
 또, Clone할 리포지토리가 제대로 보여지지 않거나 선택을 하지 못하였을 경우, 좌측상단의 File -> Clone a repository -> GitHub.com -> Your repositories에서 해당하는 repository 를 선택 후, 클론 해주시면 됩니다.
+<br>
 
-4. Github Desktop과 VSCode를 이용 해 보기
+### 4. Github Desktop과 VSCode를 이용 해 보기
 자, 다 되어 갑니다!
 정상적으로 Github Desktop을 설치 후, repository clone을 하였다면, 아래와 같은 이미지를 확인 할 수 있습니다.
 여기서 Current repository에 "username.github.io"로 보이는지, Current branch에 "main"으로 보이는지 확인 후, 맞다면 Open the repository in your external editor항목의 Open in Visual Studio Code버튼을 누릅니다.
-<img src="assets/img/2021-09-27/3.PNG" width="90%"></img>
+![Desktop View](/assets/img/2021-09-27/3.PNG){: width="90%" }
 
 그렇다면  Github Desktop이 실행 중인 채로 쨘 하고 VSCode가 실행되어 보이실텐데 Github Desktop은 그대로 두시고, VSCode의 좌측 탐색기 부분을 잘 봅시다.
 아마 "열려 있는 편집기"와 "username.github.io"가 보이실거예요.
@@ -125,9 +130,10 @@ index.html이라는 이름의 파일을 하나 생성해주시고, 내용은
 그런 다음에, Github Desktop을 다시 열어 보시면, 좌측에 changes에 index.html파일이 보이고, 하단에는 Commit to main이라는 버튼이 활성화 되어 보일겁니다.
 그대로 버튼을 눌러주시면 아래와 같이 확인이 가능할것입니다!
 Push origin버튼을 눌러주시면, 완료된겁니다. 
-<img src="assets/img/2021-09-27/4.PNG" width="90%"></img>
+![Desktop View](/assets/img/2021-09-27/4.PNG){: width="90%" }
+<br>
 
-5. Push확인 및 index.html접속해보기
+### 5. Push확인 및 index.html접속해보기
 Github Desktop에서 push 후, Github홈페이지 -> "username.github.io" repository로 들어가 보시면,
 화면에는 README.md파일과, index.html파일이 확인된다면 정상적으로 Push가 완료된 것입니다.
 
@@ -135,6 +141,7 @@ Github Desktop에서 push 후, Github홈페이지 -> "username.github.io" reposi
 웹 브라우저 주소창에 http://username.github.io 를 기입하여 접속 해봅시다.
 화면에 "Hello! This is the first page!"라고 보인다면 완료되신것입니다.
 페이지가 정상적으로 보이지 않는다면 5~10분 후 재접속 해보시길 바랍니다.
+<br>
 <br>
 
 ## 마무리
