@@ -49,6 +49,7 @@ Github 계정이 없으신 분들은 [**Github**](https://github.com/, "github")
 ## 1. Github Page 생성
 ---
 ### 1-1. 우선 본인의 Github계정(https://github.com/{username})으로 접속 후, 새로운 repository를 생성합니다.
+---
 ![Desktop View](/assets/img/2021-09-27/1.PNG){: width="90%" }
  <br>
 <br>
@@ -74,7 +75,30 @@ Owner는 wlqmffl0102 / Repository name은 wlqmffl0102.github.io 으로 작성합
 <br>
 <br>
 
-### 1-3. [**Github Desktop**](https://desktop.github.com/, "github-desktop")과 [**VSCode**](https://code.visualstudio.com/, "vscode") 설치
+### 1-3. GitHub Page생성
+---
+생성한 리포지토리로 이동 한 뒤, 상단 Settings를 클릭합니다.
+Settings 좌측 하단부에서 Page설정을 찾을 수 있습니다.
+![Desktop View](/assets/img/2021-09-27/add1.PNG){: width="90%" }
+
+
+Source항목을 아래 사진과 동일하게 맞춰주신 후 Save버튼을 누르면
+상단의 Your site is published at...이라는 초록색 부분을 볼 수 있습니다.
+![Desktop View](/assets/img/2021-09-27/add2.PNG){: width="90%" }
+
+
+해당 주소가 바로 GitHub Page입니다!
+접속이 되지 않는다면 5~10분정도 기다린 후 접속해보시면 접속이 될 것입니다.
+
+
+이 주소가 본인의 깃헙블로그 주소가 될 것입니다!
+사진과 같이 "https://wlqmffl0102.github.io/"로 보여지지 않고,
+"https://wlqmffl0102.github.io/(Projectname)"으로 보여진다면,
+사용자이름과 리포지토리명이 달라서 그렇습니다.[1-2. repository생성](#1-2-repository생성)에서 다시 확인하시길 바랍니다.
+<br>
+<br>
+
+### 1-4. [**Github Desktop**](https://desktop.github.com/, "github-desktop")과 [**VSCode**](https://code.visualstudio.com/, "vscode") 설치
 ---
 Github Desktop과 VSCode를 설치합니다.
 
@@ -105,7 +129,7 @@ Github Desktop과 VSCode를 설치합니다.
 <br>
 <br>
 
-### 1-4. Github Desktop과 VSCode를 이용 해 보기
+### 1-5. Github Desktop과 VSCode를 이용 해 보기
 ---
 자, 다 되어 갑니다!
 정상적으로 Github Desktop을 설치 후, repository clone을 하였다면, 아래와 같은 이미지를 확인 할 수 있습니다.
@@ -139,7 +163,7 @@ Push origin버튼을 눌러주시면, 완료된겁니다.
 <br>
 <br>
 
-### 1-5. Push확인 및 index.html접속해보기
+### 1-6. Push확인 및 index.html접속해보기
 ---
 Github Desktop에서 push 후, Github홈페이지 -> "username.github.io" repository로 들어가 보시면,
 화면에는 README.md파일과, index.html파일이 확인된다면 정상적으로 Push가 완료된 것입니다.
