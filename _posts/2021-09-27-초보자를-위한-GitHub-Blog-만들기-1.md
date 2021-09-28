@@ -94,7 +94,7 @@ Source항목을 아래 사진과 동일하게 맞춰주신 후 Save버튼을 누
 이 주소가 본인의 깃헙블로그 주소가 될 것입니다!
 사진과 같이 "https://wlqmffl0102.github.io/"로 보여지지 않고,
 "https://wlqmffl0102.github.io/(Projectname)"으로 보여진다면,
-사용자이름과 리포지토리명이 달라서 그렇습니다. 사용자 페이지가 아닌 프로젝트 페이지가 생성 된 것입니다. [Step 1-2. repository생성](#step 1-2-repository생성)에서 다시 확인하시길 바랍니다.
+사용자이름과 리포지토리명이 달라서 그렇습니다. 사용자 페이지가 아닌 프로젝트 페이지가 생성 된 것입니다. [Step 1-2. repository생성](#step-1-2-repository생성)에서 다시 확인하시길 바랍니다.
 
 <br>
 <br>
