@@ -39,7 +39,7 @@ Jekyll과 ruby를 다운로드 하기 전, 마음에 드는 테마를 고르려�
 
 ### Step 2-2. Ruby 설치
 ---
-Ruby. 예쁜 이름입니다! 루비는 웹 프로그래밍 언어입니다. Jekyll이 Ruby로 만들어져 있어서  Jekyll설치 전, 먼저 설치하도록 하겠습니다.
+Ruby. 예쁜 이름입니다! 루비는 프로그래밍 언어명입니다. Jekyll이 Ruby로 만들어져 있어서 Jekyll설치 전, 먼저 설치하도록 하겠습니다.
 
 [Ruby 공식사이트](https://rubyinstaller.org/downloads/)로 접속 후, 아래와 같이 Ruby+Devkit 2.6.8-1 (x64)를 선택하여 다운로드 합니다.
 이후 다운받은 설치파일을 실행 후, 별 다른 수정 없이 Next만 눌러 디폴트로 설치합니다.
