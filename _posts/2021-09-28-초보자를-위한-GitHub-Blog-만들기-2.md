@@ -1,7 +1,7 @@
 ---
 title: 초보자를 위한 GitHub Blog 만들기 - 2
 author: Dodev 하다
-date: 2021-09-28 20:28:00 +0900
+date: 2021-09-27 20:28:00 +0900
 categories: [GitHub Blog]
 tags: [GitHub Blog, How to, Study]
 ---
