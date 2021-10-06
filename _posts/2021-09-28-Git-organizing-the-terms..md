@@ -137,4 +137,7 @@ pull을 진행하면 원격지와 로컬의 데이터 내용이 동일해집니�
 
 git에 관해서도 찬찬히 작성하도록 하겠습니다.
 git을 좀 더 쉽게 접근할 수 있는 사이트가 몇몇 있습니다.
+
 저는 그 중 게임 형식으로 git의 사용법을 알 수 있는 [Learn Git Branching](https://learngitbranching.js.org/?locale=ko, "Learn Git Branching")을 추천드립니다!
+
+git 관련 글도 계속해서 적어나가겠습니다!
