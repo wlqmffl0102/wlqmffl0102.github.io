@@ -190,3 +190,6 @@ Github Desktop에서 push 후, Github홈페이지 -> "username.github.io" reposi
 <br>
 
 포스팅은 계속됩니다. 감사합니다!
+
+## 다음 포스팅
+[초보자를 위한 GitHub Blog 만들기 - 2](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-2/)

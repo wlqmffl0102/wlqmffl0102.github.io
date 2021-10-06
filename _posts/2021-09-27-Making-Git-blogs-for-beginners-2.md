@@ -7,7 +7,7 @@ tags: [GitHub Blog, How to, Study]
 ---
 
 ## 이전포스팅
-[초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-GitHub-Blog-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/)
+[초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)
 <br>
 <br>
 
@@ -52,7 +52,7 @@ Ruby. 예쁜 이름입니다! 루비는 프로그래밍 언어명입니다. Jeky
 <br>
 
 설치 완료 후, 좌측 하단 윈도우 검색창에 "ruby"라고 검색하여 Start Command Prompt with Ruby를 실행합니다.
-![Desktop View](/assets/img/2021-09-28/2.PNG){: width="90%" } 
+![Desktop View](/assets/img/2021-09-28/2.PNG){: width="100%" } 
 <br>
 
 검은색의 명령어창(Prompt)가 열릴것입니다. 여기서 명령어를 사용하려고 합니다. 사용하시는 컴퓨터의 파일명, 경로 등이 모두 영어로 되어있다면 괜찮지만, 대게 한글도 섞여 있을 것입니다. 그렇기 때문에 경로 이동 후 인코딩을 먼저 진행하겠습니다.
@@ -186,3 +186,6 @@ Github Desktop이 원격지 Repository와 local사이에서, 어떤파일이 추
 ## 마무리
 ---
 깃 블로그 만들기 포스팅은 계속됩니다!
+
+## 다음포스팅
+[초보자를 위한 GitHub Blog 만들기 - 3](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-3/)
