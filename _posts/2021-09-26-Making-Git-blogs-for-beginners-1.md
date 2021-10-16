@@ -5,6 +5,17 @@ date: 2021-09-26 20:28:00 +0900
 categories: [GitHub Blog]
 tags: [GitHub Blog, How to, Study]
 ---
+## 초보자를 위한 GitHub Blog 만들기 시리즈
+---
+[초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)
+
+[초보자를 위한 GitHub Blog 만들기 - 2](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-2/)
+
+[초보자를 위한 GitHub Blog 만들기 - 3](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-3/)
+
+[초보자를 위한 GitHub Blog 만들기 - 4](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/)
+<br>
+<br>
 
 ## 두서
 ---
@@ -25,14 +36,14 @@ tags: [GitHub Blog, How to, Study]
 ## Step 0. Github Blog(깃허브 블로그)란?
 ---
 **Github** 라고 불리는 웹 페이지가 있습니다. 
-Github는 **Git**을 호스팅해주는 웹 페이지를 말합니다.  그렇다면 Git은 무엇이냐, 보통 "형상관리 툴"이라고 이야기 합니다.
+Github는 **Git**을 호스팅해주는 웹 페이지를 말합니다. 그렇다면 Git은 무엇이냐, 보통 "형상관리 툴"이라고 이야기 합니다.
 <br>
 
 간단하게 이야기 하자면, 
 프로그램은 엄청나게 많은 코드를 포함합니다. 그 코드는 혼자서 작성하는것이 아니지요. 여러 사람과 협업을 하며 코드를 수정하고, 추가하고, 삭제하며 프로그램은 만들어집니다.
 그런데 만약, 그 기록을 남겨놓지 않는다면? 추후에 문제가 발생하여도 빠른 대응이 어려울 것입니다.
-그래서 누가, 언제, 무슨코드를 어떻게 했느냐 하는 기록을 남기는(흔히 형상관리라고 하지요.) 도구를 "Git"이라고 부르고,
-그것을 웹페이지에서 볼 수 있도록 도와주는 녀석이 "Github"입니다.
+그래서 누가, 언제, 무슨코드를 어떻게 했느냐 하는 기록을 남기는(흔히 형상관리라고 합니다.) 도구를 "Git"이라고 부르고,
+그것을 웹페이지에서 볼 수 있도록 도와주는 서비스 중 하나가 "Github"입니다.
 참고로, Github이외에도 여러가지 서비스가 존재합니다. ex) GitHub, GitLab, BitBucket
 <br>
 
@@ -56,12 +67,14 @@ Github 계정이 없으신 분들은 [**Github**](https://github.com/, "github")
 
 ### Step 1-2. repository생성
 ---
-Github Page는 **사용자 페이지(단 1개)** 와 **프로젝트 페이지(여러개 가능)** 으로 구성됩니다. 		
+Github Page는 `사용자 페이지(단 1개)` 와 `프로젝트 페이지(여러개 가능)` 으로 구성됩니다. 		
 <br>
 
-사용자 페이지는 https://username.github.io 와 같은 주소형식을 가집니다.
-프로젝트 페이지는 https://username.github.io/project_name 과 같은 주소 형식을 가집니다.
+`사용자 페이지`는 https://username.github.io 와 같은 주소형식을 가집니다.
+`프로젝트 페이지`는 https://username.github.io/project_name 과 같은 주소 형식을 가집니다.
+
 위 두 가지는 비슷해 보이더라도, 차이가 아주 큽니다.
+
 저희는 사용자 페이지 주소형식을 사용할것입니다!
 고로 **Owner는 변경하지 마시고, Repository name항목은 "username.github.io"를 입력합니다.**
 <br>
@@ -92,8 +105,8 @@ Source항목을 아래 사진과 동일하게 맞춰주신 후 Save버튼을 누
 <br>
 
 이 주소가 본인의 깃헙블로그 주소가 될 것입니다!
-사진과 같이 "https://wlqmffl0102.github.io/"로 보여지지 않고,
-"https://wlqmffl0102.github.io/(Projectname)"으로 보여진다면,
+사진과 같이 <https://wlqmffl0102.github.io/>로 보여지지 않고,
+<https://wlqmffl0102.github.io/(Projectname)>으로 보여진다면,
 사용자이름과 리포지토리명이 달라서 그렇습니다. 사용자 페이지가 아닌 프로젝트 페이지가 생성 된 것입니다. [Step 1-2. repository생성](#step-1-2-repository생성)에서 다시 확인하시길 바랍니다.
 <br>
 <br>
@@ -163,6 +176,24 @@ Push origin버튼을 눌러주시면, 완료된겁니다.
 <br>
 <br>
 
+### (보너스) Github Desktop 사용방법
+---
+Girhub Desktop의 사용법은 위와 같이 동일합니다.
+1. 좌측 상단 'Current repository'가 현재 사용하려고 하는 repository와 같은 이름인지 확인
+
+2. 바로 옆 'Current branch'또한 (대개)main이 맞는지 확인합니다.(브런치가 다르다면 브런치를 확인합니다!)
+
+3. 좌측부분에서 file들의 변경사항이 있다면 추가(초록), 수정(노랑), 삭제(빨강)로 확인이 가능합니다.
+
+4. file변경사항을 원격지 repository로 올리고 싶을때에는 수정사항이 올바른지 확인 후, 좌측 하단 Summary에서 Commit message를를 적은 뒤 'Commit to main'버튼을 누릅니다.(브런치가 다르다면 Commit to (브런치명)으로 확인됩니다.)
+
+5. Commit이 완료되었다면 화면 가운데 혹은 화면 상단에서 Push origin버튼을 눌러줍니다.
+
+6. 5~10분 뒤 github page로 생성된 주소로 들어가서 확인합니다.
+
+<br>
+<br>
+
 ### Step 1-6. Push확인 및 index.html접속해보기
 ---
 Github Desktop에서 push 후, Github홈페이지 -> "username.github.io" repository로 들어가 보시면,
@@ -190,6 +221,15 @@ Github Desktop에서 push 후, Github홈페이지 -> "username.github.io" reposi
 <br>
 
 포스팅은 계속됩니다. 감사합니다!
+<br>
+<br>
 
 ## 다음 포스팅
+---
+[초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)
+
 [초보자를 위한 GitHub Blog 만들기 - 2](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-2/)
+
+[초보자를 위한 GitHub Blog 만들기 - 3](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-3/)
+
+[초보자를 위한 GitHub Blog 만들기 - 4](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/)

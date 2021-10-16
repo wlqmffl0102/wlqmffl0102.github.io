@@ -34,21 +34,21 @@ tags: [GitHub Blog, How to, Study]
 
 참고로 jekyll-theme-chirpy테마를 기준으로 작성합니다. 테마마다 구조나, 코드가 모두 다르기 때문에 유의 부탁드립니다.
 나는 이 옵션이 있는데 왜 이 블로그에서는 다뤄주지 않지? 나는 이 옵션이 없는데 도대체 뭘 말하는 거지?라고 생각하실 수 있습니다.
-블로그에 적혀있지 않으나 본인이 가지고 있는 옵션의 경우에는 테마 제작자 repository를 참고하여 수정해주시고, 블로그에는 적혀있지만 본인이 가지고 있지 않는 옵션의 경우에는 스킵하시거나 테마 제작자 repository를 참고하여 수정해주시면 됩니다.
+블로그에 적혀있지 않으나 본인이 가지고 있는 옵션의 경우에는 테마 제작자 repository의 README.md 참고하여 수정해주시고, 블로그에는 적혀있지만 본인이 가지고 있지 않는 옵션의 경우에는 스킵하시거나 테마 제작자 repository의 README.md 참고하여 수정해주시면 됩니다.
 <br>
 <br>
 
 ## 바꾸고자 하는 곳을 명확하게 짚는다.
 ---
-앞서 말했던 것 처럼 jekyll-theme-chirpy테마를 기준으로 작성합니다.
+앞서 말했던 것 처럼 제가 현재 사용중인 jekyll-theme-chirpy테마를 기준으로 작성합니다.
 
 우선 본인이 사용중인 테마의 데모 페이지가 있을것입니다. 그 데모 페이지를 거의 그대로 현재 쓰고 계실건데요. 제가 사용중인 테마의 데모 페이지는  [jekyll-theme-chirpy Demo Page](https://chirpy.cotes.info/)입니다.
 
 ![Desktop View](/assets/img/2021-10-04/1.PNG){: width="90%" } 
 ![Desktop View](/assets/img/2021-10-04/2.PNG){: width="90%" } 
 
-위 사진과 같이 제가 쓰는 테마는 두 가지 모드를 지원합니다. light모드, dark모드.
-저는 여기서 **프로필 사진, 블로그 소개말, favicon, 좌측 사이드 바의 컬러, 모드별 하이라이트 컬러** 정도를 변경하고 싶었습니다.
+위 사진과 같이 제가 쓰는 테마는 두 가지 모드를 지원합니다. light모드, dark모드. 어느 모드 할 것 없이 군더더기 없이 깔끔하고 컬러도 예쁩니다.
+하지만 저는 여기서 **프로필 사진, 블로그 소개말, favicon, 좌측 사이드 바의 컬러, 모드별 하이라이트 컬러** 정도를 변경하고 싶었습니다.
 
 하다가 보면 추가되거나, 변경, 삭제 되는 흐름이 있을겁니다. 그치만 저는 처음부터 "이걸부터 해야만 한다!"보다는 처음에는 "어디가 어떤 모양이면 좋겠어" 혹은 "이건 다른 색 / 이미지라면 좋겠어"와 같은 명확한 생각이 필요하다고 생각합니다.
 
@@ -97,7 +97,7 @@ avatar 이미지가 제대로 보이지 않는 경우에는 이미지의 경로�
 
 ## 좌측 사이드 바의 컬러 변경
 ---
-[jekyll-theme-chirpy Demo Page](https://chirpy.cotes.info/)에서 좌측에는 사이드바(sidebar)가 존재합니다. 프로필이미지, 소개글, 메뉴 등이 있는 부분을 말하지요.
+[jekyll-theme-chirpy Demo Page](https://chirpy.cotes.info/)에서 좌측에는 사이드바(sidebar)가 존재합니다. 프로필이미지, 소개글, 메뉴 등이 있는 좌측 부분을 말하지요.
 ![Desktop View](/assets/img/2021-10-04/6.PNG){: width="90%" }
 
 해당 부분의 컬러는 light mode일때에는 베이지색, dark mode일 경우 검정에가까운 회색을 띕니다. 저는 우주컨셉이 좋아서, 색을 교체하기보다는 이 부분을 이미지로 넣고 싶었습니다. 이 부분이 도대체 어디에 있는지 어떻게 찾을까요?
@@ -122,16 +122,17 @@ css파일에서 해당부분을 찾아야 하는데, #sidebar는 sidebar를 id�
 
 해당 파일을 열어보면, background속성이 색깔이 아닌 `--sidebar-bg`라고 적혀있습니다. 색을 변수로 담아두었습니다. 다시한번 동일하게 --sidebar-bg를 검색해보시면, dark-typography.scss와 light-typography.scss에서 --sidebar-bg가 rgb로 설정되어 있는 것을 확인 할 수 있습니다.
 
-컬러만 바꾸고싶으시다면 dark-typography.scss와 light-typography.scss에서 각각의 rgb색을 변경하여 입력해줍니다.
+컬러만 바꾸고싶으시다면 `dark-typography.scss`와 `light-typography.scss`에서 각각의 rgb색을 변경하여 입력해줍니다.
 
 단순 컬러가 아닌 그라데이션을 사용하고 싶으시다면 [CSS Gradient](https://cssgradient.io/)과 같은 사이트를 참고하여 사용할 수 있습니다.
 
 저는 컬러나 그라데이션 말고 이미지를 넣고 싶었기 때문에, dark-typography.scss와 light-typography.scss에 정의되어있는 --sidebar-bg부분을 지우고(주석처리하고) 아래와 같이 변경해주었습니다.
+참고로 `/*___*/`형식으로 적어주시면 주석처리 됩니다.
 ```css
   /*background: var(--sidebar-bg);*/
-  background-image: url('/assets/img/sidebar-bg-img.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url('/assets/img/sidebar-bg-img.jpg'); /*사용하고 싶은 이미지 경로*/
+  background-size: cover;  /*이미지의 size가 보여질 부분의 사이즈와 다른 경우에는 이미지 크기를 꽉차게 만든다 */
+  background-repeat: no-repeat; /*이미지의 size가 보여질 부분의 사이즈와 다른 경우 이미지가 반복하여 나오는데, 반복하지 않겠다*/
 ```
 
 <br>
@@ -141,14 +142,14 @@ css파일에서 해당부분을 찾아야 하는데, #sidebar는 sidebar를 id�
 ---
 개발자 모드에서 변경이 필요한 요소를 찾고, VSCode에서 검색하여 수정하는 방법이 감이 잡혔다면 모드별 하이라이트 컬러를 변경하는것도 매우 쉽습니다!
 
-페이지에 있는 글자들이 모두 검정색 글자는 아닙니다. 링크가 걸려있거나, 어떠한 구역 혹은 글자는 색깔을 가지고 있지요. 그것이 바로 하이라이트 컬러입니다.
+페이지에 있는 글자들이 모두 검정색 글자는 아닙니다. 링크가 걸려있거나, 어떠한 구역 혹은 글자는 색깔을 가지고 있습니다. 그것이 바로 하이라이트 컬러입니다.
 
 테마 고유의 색도 예쁘긴 합니다만, 저는 우주!컨셉이 좋아서, 색깔들을 보라색으로 변경하려고 합니다. light mode일때에는 그냥 그대로 두고, dark mode일 때 하이라이팅 컬러를 바꾸려고 해요. 
 
 동일하게 본인의 깃헙블로그페이지로 들어간 뒤, F12버튼을 눌러 개발자 모드(DevTools)를 띄워줍니다. 하이라이트 컬러는 큰 요소가 아니기 때문에, sidebar부분을 찾는 것 처럼 하면 되게 오래 걸립니다.
 그렇기 때문에 텍스트를 이용해서 검색하도록 하겠습니다.
 저는 다크모드의 하이라이트 컬러를 바꿀거라 다크모드에서 개발자 모드로 진입했습니다.
-화면에 보시면 Getting Started, Enable Google Page Views, Customize the Favicon과 같이 포스팅 제목에 색이 들어가 있습니다. 
+화면에 보시면 "Getting Started", "Enable Google Page Views", "Customize the Favicon"과 같이 포스팅 제목에 색이 들어가 있습니다. 
 ![Desktop View](/assets/img/2021-10-04/10.PNG){: width="90%" }
 
 해당 부분을 변경하려고 하기 때문에, 개발자 모드쪽에서 Ctrl+f를 눌러 포스팅 제목 중 하나를 검색합니다.
@@ -195,7 +196,7 @@ Ruby Prompt에서 명령어를 입력
 ```
 <br>
 
-정상적으로 확인된다면 **http://127.0.0.1:4000/** 으로 접속하여 변경사항들을 확인합니다.
+정상적으로 확인된다면 <http://127.0.0.1:4000/> 또는 <http://localhost:4000/>으로 접속하여 변경사항들을 확인합니다.
 <br>
 <br>
 

@@ -29,7 +29,7 @@ Github 사용법은 몸에 익숙해지면 여러가지 편리함으로 업무�
 
 ## Github
 ---
-Github는 **Git**을 호스팅해주는 웹 페이지를 말합니다. 그렇다면 Git은 무엇이냐, 보통 "형상관리 툴"이라고 이야기 합니다.
+Github는 `Git을 호스팅해주는 웹 페이지`를 말합니다. 그렇다면 Git은 무엇이냐, 보통 "형상관리 툴"이라고 이야기 합니다.
 즉, Github와 Git은 엄연히 다른것 입니다. Git은 tool이고, Github는 Service입니다.
 <br>
 
@@ -45,9 +45,9 @@ Github는 **Git**을 호스팅해주는 웹 페이지를 말합니다. 그렇다
 ---
 말 그대로 '저장소'입니다. 파일이나 폴더를 저장해 두는 곳입니다. 
  - Local Repository : Local. 즉 현재 사용하는 PC, 노트북 등의 장치에 존재하는 저장소입니다. 
-	PC에서 어떤 프로그램을 다운로드 받게 되면 하드디스크의 용량을 차지하게 되지요. 
+	PC에서 어떤 프로그램을 다운로드 받게 되면 하드디스크의 용량을 차지하게 됩니다.
 	물론 폴더도 그렇습니다. 폴더 안에 사진들만 저장해 둔다면 "사진첩", 동영상만 저장해둔다면 "동영상"이라고 폴더 이름을 적어 나눠 둘 것 같습니다. 
-	사진이나, 동영상이 아니라 어떠한 프로젝트를 위한 폴더를 만들고, 그곳에 관련 파일들을 저장해둔다면, 그 폴더 이름은 "00 project" 등과 같을 수 있습니다. 이때, 00 project라고 불리는 폴더가 Local Repository입니다.
+	사진이나, 동영상이 아니라 어떠한 프로젝트를 위한 폴더를 만들고, 그곳에 관련 파일들을 저장해둔다면, 그 폴더 이름은 "xx project" 등과 같을 수 있습니다. 이때, xx project라고 불리는 폴더가 Local Repository입니다.
    
  - Remote Repository : Local에 위치하지 않는 저장소입니다. 간단히 말하자면 현재 PC 등에서 파일을 저장하는 폴더 등은 Local 저장소이고, 본인이 PC에 직접 가지고 있지 않고, 다른 곳에 저장되어있는 각종 파일과 폴더 등은 원격지(Remote) 저장소(Repository)에 저장되어 있다라고 생각하시면 될 것 같습니다.
   저희는 Github(웹 사이트)에 Repository를 만들었지요. 그것이 바로 Remote 저장소(줄여서 원격지)라고 생각하시면 될 것 같습니다.
@@ -56,7 +56,7 @@ Github는 **Git**을 호스팅해주는 웹 페이지를 말합니다. 그렇다
 
 ## Clone / Fork
 ---
-우선 Clone부터 확인하겠습니다. Clone또한, 말 그대로 복제입니다.
+우선 `Clone`부터 확인하겠습니다. Clone또한, 말 그대로 복제입니다.
 원격지에 저장되어 있는 모든 데이터를 로컬로 복사해오는 기능입니다. 
 ![Desktop View](/assets/img/2021-09-29/0.PNG){: width="90%" } 
 
@@ -70,13 +70,13 @@ Github는 **Git**을 호스팅해주는 웹 페이지를 말합니다. 그렇다
 Clone이 진행된다면, local Repository와 Remote Repository가 연결됩니다.
 ![Desktop View](/assets/img/2021-09-29/4.PNG){: width="90%" }
 
-그 중, 제 포스팅은 [Github Desktop](https://desktop.github.com/, "Github-Desktop")을 이용하고 있는데요. 초보자들이 사용하기 가장 좋은 방법이라고 생각합니다.
+그 중, 제 포스팅은 [Github Desktop](https://desktop.github.com/, "Github-Desktop")을 이용하고 있는데요. 초보자들이 사용하기 가장 좋은 방법이라고 생각합니다. UI지원으로 명령어를 직접 사용하지 않고, 버튼만 몇가지 눌러 git을 사용할 수 있습니다.
 
 [Github Bash](https://git-scm.com/, "Github-Bash")는 OS에 상관없이 리눅스체제의 명령어를 입력하여 사용 할 수 있습니다. Windows와 Linux 그리고 mac은 사용하는 명령어가 모두 다릅니다. windows는 cmd(명령 프롬프트), Linux와 mac은 terminal을 사용합니다. windows에서 Linux명령어를 사용 할 수 있어서, git과 linux명령어를 함께 배우고싶거나, 모두 사용할 줄 아신다면 git bash는 매우 유용합니다.
 <br>
 <br>
 
-다음으로 Fork입니다.
+다음으로 `Fork`입니다.
 fork는 본인의 Repository가 아닌, **다른사람의 Repository를 본인의 Repository로 복제하는것**입니다. 
 
 제 블로그에서는 아직까지 fork에 관해 다루지 않았습니다. 
@@ -96,24 +96,25 @@ Fork는 추후에 필요시 포스팅을 작성하도록 하겠습니다.
 
 ## Commit
 ---
-Commit이란, [이전 포스팅(Github Blog 만들기 (1)](https://wlqmffl0102.github.io/posts/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-GitHub-Blog-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/, "이전 포스팅")에서 
+`Commit`이란, [이전 포스팅(초보자를 위한 GitHub Blog 만들기 - 1)](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/, "이전 포스팅")에서 
 
-"그래서 누가, 언제, 무슨코드를 어떻게 했느냐 하는 기록을 남기는(흔히 형상관리라고 하지요.) 도구를 "Git"이라고 부르고, 그것을 웹페이지에서 볼 수 있도록 도와주는 녀석이 "Github"입니다." 라고 했는데,
+"그래서 누가, 언제, 무슨코드를 어떻게 했느냐 하는 기록을 남기는(흔히 형상관리라고 합니다.) 도구를 "Git"이라고 부르고,
+그것을 웹페이지에서 볼 수 있도록 도와주는 서비스 중 하나가 "Github"입니다." 라고 했는데,
 
 이때, 기록을 남기는 수단입니다.
-파일의 추가/수정/삭제시에 남기는 메모로, 변경 이력을 남깁니다.
+파일의 추가 / 수정 / 삭제시에 남기는 메모로, 변경 이력을 남깁니다.
 Commmit의 이름(내용)을 통해 각각의 commit을 구분합니다.
 
 Github Desktop을 사용할시, 좌측 하단에 사용자 이미지 바로 옆 부분에 Commit 이름(내용)을 작성 후 하단의 "Commit to main"버튼을 눌러 commit을 진행합니다.
 
-이때, main은 브런치 명입니다. 추후 작성하도록 하겠습니다.
+이때, main은 브런치 명입니다. branch(브런치) 관련 내용은 추후 작성하도록 하겠습니다.
 ![Desktop View](/assets/img/2021-09-28/5.PNG){: width="50%" }
 <br>
 <br>
 
 ## Push
 ---
-로컬 Repository의 데이터를 원격지 Repository로 업로드 하는것을 뜻합니다.
+`Push`란 로컬 Repository의 데이터를 원격지 Repository로 업로드 하는것을 뜻합니다.
 ![Desktop View](/assets/img/2021-09-29/2.PNG){: width="50%" }
 
 commit후 push가 진행되며, 여러가지 변경들이 commit 이름에 따라 구분뒤어 업로드 됩니다.
@@ -124,7 +125,7 @@ push가 완료 되면 로컬과 원격지의 데이터 내용이 동일해집니
 
 ## Pull
 ---
-반대로, 원격지 Repository를 로컬 Repository로 내려 받는것을 뜻합니다.
+`Pull`이란, 반대로 원격지 Repository를 로컬 Repository로 내려 받는것을 뜻합니다.
 ![Desktop View](/assets/img/2021-09-29/3.PNG){: width="50%" }
 
 혼자서 사용하는 Repository보다는, 여러사람이 함께쓰는 Repository의 내용을 로컬로 받아오는 경우가 많습니다.

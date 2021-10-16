@@ -5,12 +5,16 @@ date: 2021-10-01 20:28:00 +0900
 categories: [GitHub Blog]
 tags: [GitHub Blog, How to, Study]
 ---
-## 이전포스팅
+
+## 초보자를 위한 GitHub Blog 만들기 시리즈
+---
 [초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)
 
 [초보자를 위한 GitHub Blog 만들기 - 2](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-2/)
 
 [초보자를 위한 GitHub Blog 만들기 - 3](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-3/)
+
+[초보자를 위한 GitHub Blog 만들기 - 4](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/)
 <br>
 <br>
 
@@ -51,8 +55,8 @@ URL에 블로그 전체주소(https://wlqmffl0102.github.io/)를 적어줍니다
 ![Desktop View](/assets/img/2021-10-01/1.png){: width="90%" }
 
 해당 url이 본인의 소유인지 확인합니다.
-아래에 보이는 googlexxxxxxx~.html파일을 다운로드 한 뒤, https://wlqmffl0102.github.io/ 페이지에 업로드 하라고 나옵니다.
-https://wlqmffl0102.github.io/ 페이지는 index페이지 인데, VSCode에서 Gemfile이 있는 위치에 index.html이 하나 있습니다.
+아래에 보이는 googlexxxxxxx~.html파일을 다운로드 한 뒤, <https://wlqmffl0102.github.io/> 페이지에 업로드 하라고 나옵니다.
+<https://wlqmffl0102.github.io/> 페이지는 index페이지 인데, VSCode에서 Gemfile이 있는 위치에 index.html이 하나 있습니다.
 그곳에 다운로드 한 html파일을 넣습니다.
 ![Desktop View](/assets/img/2021-10-01/2.png){: width="90%" }
 ![Desktop View](/assets/img/2021-10-01/3.PNG){: width="90%" }
@@ -81,9 +85,14 @@ Ruby Prompt에서 명령어를 입력
 ```
  jekyll serve
 ```
-명령어 입력 후, 잠시 뒤 http://localhost:4000/sitemap.xml 으로 접속 해 봅니다. 
+명령어 입력 후, 잠시 뒤 <http://localhost:4000/sitemap.xml> 으로 접속 해 봅니다. 
 xml로 이루어진 페이지가 보인다면 해당 페이지 전체를 복사하여 Gemfile이 있는 위치에 sitemap.xml파일을 생성 후 붙여넣어줍니다.
 sitemap.xml파일이 이미 생성되어 있다면 그대로 두셔도 무관합니다.
+
+해당 방법 말고, sitemap.xml을 생성해주는 사이트도 많이 있습니다.
+[https://www.xml-sitemaps.com/](https://www.xml-sitemaps.com/)과 같은 사이트 입니다. 
+화면 가운데 Your Website URL을 적어 넣으신 뒤, start버튼을 눌러주시면 자동 생성 됩니다.
+생성받은 sitemap.xml파일을 정확한 위치에 넣어주시면 됩니다.
 
 마지막으로 sitemap.xml이 있는 동일한 위치에 robots.txt 파일을 생성하고, 내용을 다음과 같이 적습니다.
 ```
@@ -122,9 +131,9 @@ push가 정상적으로 이루어 졌다면, [Google Search Console](https://sea
 보고 시간대 및 통화는 "대한민국"으로 맞춰주시면 됩니다.
 ![Desktop View](/assets/img/2021-10-01/11.PNG){: width="90%" }
 
-조금 아래로 내리면 "고급 옵션 열기"라고 하는 버튼이 보이십니다.
+**여기서 중요!!!** 조금 아래로 내리면 `고급 옵션 열기`라고 하는 버튼이 보이십니다.
 이 설정을 꼭 해주셔야만 블로그-애널리틱스 연결이 가능합니다!
-고급 옵션을 열면 **유니버설 애널리틱스 속성 만들기**라고 보이실텐데, 우측 버튼을 눌러 활성화 시켜주시고, URL을 입력합니다.
+고급 옵션을 열면 `유니버설 애널리틱스 속성 만들기`라고 보이실텐데, 우측 버튼을 눌러 활성화 시켜주시고, URL을 입력합니다.
 아래 버튼들은 디폴트 값 그대로 두시고 다음 버튼을 클릭합니다.
 ![Desktop View](/assets/img/2021-10-01/12.PNG){: width="90%" }
 
@@ -134,14 +143,14 @@ push가 정상적으로 이루어 졌다면, [Google Search Console](https://sea
 
 <br>
 
-이후에 약관이 나올텐데, 약관 언어를 대한민국으로 설정 후 동의 진행해주시면 됩니다.
+4. 이후에 약관이 나올텐데, 약관 언어를 대한민국으로 설정 후 동의 진행해주시면 됩니다.
 
 정상적으로 설정 되셨다면 애널리틱스 홈 화면이 보이실겁니다.
 그 중 좌측 하단 "관리"탭으로 들어갑니다.
 ![Desktop View](/assets/img/2021-10-01/14.PNG){: width="90%" }
 
-속성 설정에서 **유니버설 애널리틱스 속성**을 만드셨다면 다음과 같이 유니버설 애널리틱스 속성화면을 보실 수 있습니다.
-그 중, "추적 코드"버튼을 누릅니다.
+속성 설정에서 `유니버설 애널리틱스 속성`을 만드셨다면 다음과 같이 유니버설 애널리틱스 속성화면을 보실 수 있습니다.
+그 중, `추적 코드`버튼을 누릅니다.
 ![Desktop View](/assets/img/2021-10-01/15.PNG){: width="90%" }
 
 그러시면 하단에 추적 ID 및 범용 사이트 태그를 보실 수 있습니다.
@@ -224,6 +233,8 @@ disqus:
   comments: true  # boolean type, the global switch for posts comments.
   shortname: 'Dodev-HADA'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 ```
+
+테마 중, _config.yml에서 disqus관련 설정을 지원하지 않는 경우, 소스 코드를 수정해야 할 수도 있습니다. 다만 제가 알기론 거의 대부분의 테마들은 disqus관련 기능설정 부분이 있는 것으로 압니다.
 <br>
 <br>
 
@@ -233,3 +244,17 @@ disqus:
 뭔가 잊어버린게 있으려나.. 잘 모르겠습니다.
 
 보시기에 불편하시거나, 잘 안되거나, 문제가 발생하는 등의 내용은 연락바랍니다. 
+<br>
+<br>
+
+## 초보자를 위한 GitHub Blog 만들기 시리즈
+---
+[초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)
+
+[초보자를 위한 GitHub Blog 만들기 - 2](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-2/)
+
+[초보자를 위한 GitHub Blog 만들기 - 3](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-3/)
+
+[초보자를 위한 GitHub Blog 만들기 - 4](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/)
+<br>
+<br>
