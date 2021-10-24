@@ -58,8 +58,10 @@ URL에 블로그 전체주소(https://wlqmffl0102.github.io/)를 적어줍니다
 아래에 보이는 googlexxxxxxx~.html파일을 다운로드 한 뒤, <https://wlqmffl0102.github.io/> 페이지에 업로드 하라고 나옵니다.
 <https://wlqmffl0102.github.io/> 페이지는 index페이지 인데, VSCode에서 Gemfile이 있는 위치에 index.html이 하나 있습니다.
 그곳에 다운로드 한 html파일을 넣습니다.
+
 ![Desktop View](/assets/img/2021-10-01/2.png){: width="90%" }
-![Desktop View](/assets/img/2021-10-01/3.PNG){: width="90%" }
+
+![Desktop View](/assets/img/2021-10-01/3.PNG){: width="70%" }
 
 Github Desktop을 이용해 commit과 push를 진행합니다.
 
@@ -106,6 +108,7 @@ Sitemap의 주소는 본인 블로그 주소를 넣으셔야 합니다.
 Github Desktop을 이용해 commit과 push를 진행합니다.
 
 push가 정상적으로 이루어 졌다면, [Google Search Console](https://search.google.com/search-console)의 Sitemap항목으로 들어가 sitemap.xml을 올려줍니다.
+
 ![Desktop View](/assets/img/2021-10-01/6.png){: width="90%" }
 
 등록이 완료 된 후 7일 이내로 검색 엔진에 노출됩니다.
@@ -147,6 +150,7 @@ push가 정상적으로 이루어 졌다면, [Google Search Console](https://sea
 
 정상적으로 설정 되셨다면 애널리틱스 홈 화면이 보이실겁니다.
 그 중 좌측 하단 "관리"탭으로 들어갑니다.
+
 ![Desktop View](/assets/img/2021-10-01/14.PNG){: width="90%" }
 
 속성 설정에서 `유니버설 애널리틱스 속성`을 만드셨다면 다음과 같이 유니버설 애널리틱스 속성화면을 보실 수 있습니다.
