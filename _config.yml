@@ -89,7 +89,7 @@ toc: true
 
 disqus:
   comments: true  # boolean type, the global switch for posts comments.
-  shortname: 'Dodev-HADA'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: 'dodev-hada'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 paginate: 10
 
