@@ -6,6 +6,11 @@ categories: [html]
 tags: [html, study]
 ---
 
+[HTML과 CSS 그리고 JAVASCRIPT](https://wlqmffl0102.github.io/posts/What-is-html-and-css/)
+
+[CSS 사용해보기](https://wlqmffl0102.github.io/posts/Try-Using-CSS/)
+[Javascript를 어떻게 다뤄볼 수 있을까?](https://wlqmffl0102.github.io/posts/Try-Using-JS/)
+
 ## 두서
 ---
 안녕하세요. Dodev 하다입니다. 깃헙블로그 만들기에서 시작해서 html까지 왔습니다.
