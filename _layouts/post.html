@@ -130,7 +130,7 @@ layout: default
 
     {% include related-posts.html %}
 
-    <div style="text-align: center;">
+    <div id="hits_custom" style="text-align: center;">
       <a
         href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
         target="_blank"
@@ -140,7 +140,7 @@ layout: default
         />
       </a>
     </div>
-    
+
     {% include post-nav.html %}
 
     {% if site.disqus.comments and page.comments %}
