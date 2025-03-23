@@ -111,7 +111,7 @@ Source항목을 아래 사진과 동일하게 맞춰주신 후 Save버튼을 누
 <br>
 <br>
 
-### Step 1-4. [**Github Desktop**](https://desktop.github.com/, "github-desktop")과 [**VSCode**](https://code.visualstudio.com/, "vscode") 설치
+### Step 1-4. [**Github Desktop**](https://desktop.github.com/ "github-desktop")과 [**VSCode**](https://code.visualstudio.com/ "vscode") 설치
 ---
 Github Desktop과 VSCode를 설치합니다.
 <br>
